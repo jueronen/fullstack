@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>H0103</title>
+</head>
+<body>
+    <p id="kohde"></p>
+<script>
+let taulukko = ["JavaScriptin", "opiskelu", "on", "ihanaa!"];
+
+let lause = "";
+
+for (let i of taulukko) {
+    lause = lause + ' ' + i
+}
+document.getElementById("kohde").innerHTML = lause;
+
+console.log(lause);
+</script>
+
+</body>
+</html>
