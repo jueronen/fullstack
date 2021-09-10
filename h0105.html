@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>H0105</title>
+</head>
+<body>
+<!--
+    Tee funktio, jolle voidaan välittää parametrina kokonaislukuja sisältävä taulukko.
+    Funktion tulee tutkia mitkä luvuista ovat parillisia ja palauttaa nämä luvut taulukkona.
+    Funktiota kutsuvan ohjelman tulee tulostaa määritelty alkuperäinen taulukko
+    ja uusi vain parillisia lukuja sisältävä taulukko web-konsolille. -->
+<script>
+
+var taulukko = [1,2,3,4,5,6,7,8,9,10]; //alkuperäinen taulukkos
+var parilliset = []; //alustetaan tyhjä parilliset taulukko, jonne parilliset luvut ajetaan.
+
+//funktio, joka ottaa vastaan parametrinä alkuperäisen taulukon, sekä suodattaa taulukosta parilliset ja sijoittaa ne parilliset taulukkoon.
+function selvitaParilliset (a) {
+    parilliset = a.filter((number) => number%2==0);
+    
+}
+
+selvitaParilliset(taulukko); //ajetaan funktio
+console.log(taulukko); //tulostetaan alkuperäinen taulukko
+console.log(parilliset); //tulostetaan parilliset taulukko
+</script>
+
+</body>
+</html>
