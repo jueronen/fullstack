@@ -4,12 +4,13 @@ FullStack-ohjelmointi: Harjoitustehtäväväkirjanpito
 Eronen Juha [N3321]
 Ratkaisut: https://github.com/jueronen/fullstack
 
-Harjoitustehtäväpisteet: 8
+Harjoitustehtäväpisteet: 12
 Kaikki tarjolla olleet harjoitustehtäväpisteet: 0
-8/x = > x %
+12/x = > x %
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 H1T1: 2/2p
 H1T2: 2/2p
 H1T3: 2/2p
 H1T4: 2/2p
+H1T5: 4/4p
