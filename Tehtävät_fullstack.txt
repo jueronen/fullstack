@@ -6,7 +6,7 @@ Ratkaisut: https://github.com/jueronen/fullstack
 
 Harjoitustehtäväpisteet: 22
 Kaikki tarjolla olleet harjoitustehtäväpisteet: 0
-44/189 = > x %, tavoite 94,5
+48/189 = > x %, tavoite 94,5
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 H1T1: 2/2p, tehty
@@ -36,7 +36,7 @@ H4T3: 0/10p
 
 H5T1: 2/2p, tehty
 H5T2: 4/4p, tehty
-H5T3: 0/4p
+H5T3: 4/4p, tehty
 H5T4: 0/6p
 H5T5: 0/6p
 
