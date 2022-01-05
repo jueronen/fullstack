@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tehtävä H106</title>
+  </head>
+  <body>
+    <h1>JavaScript-taulukon läpikäynti</h1>
+    <h2>for- ja for...of-silmukoilla</h2>
+    <hr />
+    <p>Taulukon alkiot ovat</p>
+    <p id="tulosrivit"></p>
+    <p>Taulukon alkioiden</p>
+    <p id="tiedot"></p>
+
+    <script>
+      let taulukko = [11, 22, 33, 44];
+      let summa = 0;
+      let lukumaara = 0;
+      let keskiarvo;
+      let tulosrivit = '';
+
+      /*
+        1. Laske taulukon alkioiden lukumäärä ja summa for...of-rakenteella. Muuttujan tulosrivit sisältö tulee muodostaa for-rakenteella.
+        2. Laske lisäksi keskiarvo keskiarvo-muuttujaan. Keskiarvo tulee tulostaa yhden desimaalin tarkkuudella (toFixed()-metodi)
+        3. Liitä lopuksi muuttujiin keräämäsi data näytettäväksi P-elementissä getElementById/innerHTML-yhdistelmää käyttäen.
+        4. Tuloksen tulisi olla oheisen kuvan mukainen. JavaScriptillä generoimasi sisältö tulisi olla näkyvissä HR-elementin (vaakaviiva) alapuolella.*/
+
+      for (lukumaara of taulukko) {
+        lukumaara = taulukko.length;
+      }
+
+      for (summa of taulukko) {
+        summa = taulukko[0] + taulukko[1] + taulukko[2] + taulukko[3];
+      }
+
+      keskiarvo = summa / lukumaara;
+
+      document.getElementById('tiedot').innerHTML = `lukumäärä: ${lukumaara}<br>
+      summa: ${summa}<br>
+      keskiarvo: ${keskiarvo}`;
+
+      for (let i = 0; i < lukumaara; i++) {
+        tulosrivit += `taulukko[${i}] = ${taulukko[i]}<br>`;
+      }
+      document.getElementById('tulosrivit').innerHTML = tulosrivit;
+    </script>
+  </body>
+</html>

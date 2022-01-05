@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tehtävä H0201</title>
+  </head>
+  <body>
+    <h1>Laske luvut yhteen</h1>
+
+    <form id="f">
+      <input type="text" id="n1" /><br />
+      <input type="text" id="n2" /><br />
+      <button type="button" onclick="tulostaSumma(f.n1.value, f.n2.value)">
+        Laske
+      </button>
+    </form>
+    <br />
+    <div id="results"></div>
+
+    <script>
+      function tulostaSumma(a, b) {
+        let div = document.getElementById('results');
+        div.innerHTML = 'Lukujen summa on ' + laskeSumma();
+      }
+
+      function laskeSumma(a, b) {
+        let tulos = 0;
+        tulos = Number(f.n1.value) + Number(f.n2.value);
+        return tulos;
+      }
+    </script>
+  </body>
+</html>

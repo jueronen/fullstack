@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>H0304 - Simple ToDo</title>
+        <script>
+            function addList() {
+                let ul = document.getElementById("todos")
+                let newTodo = document.getElementById("newTodo")
+
+                let li = document.createElement("li") // <li></li>
+
+                li.addEventListener("click",removeItem)
+
+                let text = document.createTextNode(newTodo.value) // "Call Juha!"
+
+                li.appendChild(text) // <li>Call Juha!</li>
+                ul.appendChild(li) // <ul><li>Call Juha!</li></ul>
+
+                newTodo.value = ""
+
+
+            }
+
+            function clearList() {
+
+                let ul = document.getElementById("todos")
+                while(ul.hasChildNodes()) {
+                    ul.removeChild(ul.firstChild);
+                }
+            }
+            function removeItem(event) {
+                event.target.remove()
+            }
+                
+        </script>
+    </head>
+    <body>
+        <h1>Simple ToDo</h1>
+        <p>Todo:</p>
+        <input type="text" id="newTodo">
+        <button onclick="addList()">Lisää</button>
+        <button onclick="clearList()">Tyhjää</button>
+        <ul id="todos">
+
+        </ul>
+    </body>
+</html>
