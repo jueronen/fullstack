@@ -4,9 +4,9 @@ FullStack-ohjelmointi: Harjoitustehtäväväkirjanpito
 Eronen Juha [N3321]
 Ratkaisut: https://github.com/jueronen/fullstack
 
-Harjoitustehtäväpisteet: 22
+Harjoitustehtäväpisteet: 62
 Kaikki tarjolla olleet harjoitustehtäväpisteet: 0
-48/189 = > x %, tavoite 94,5
+62/189 = > x %, tavoite 94,5
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 H1T1: 2/2p, tehty
@@ -18,8 +18,8 @@ H1T6: 4/4p, tehty
 H1T7: 4/4p, tehty
 
 H2T1: 4/4p, tehty
-H2T2: 0/4p
-H2T3: 0/4p
+H2T2: 4/4p, tehty
+H2T3: 4/4p, tehty
 H2T4: 4/4p, tehty
 H2T5: 4/4p, tehty
 H2T6: 0/6p
@@ -37,7 +37,7 @@ H4T3: 0/10p
 H5T1: 2/2p, tehty
 H5T2: 4/4p, tehty
 H5T3: 4/4p, tehty
-H5T4: 0/6p
+H5T4: 6/6p, tehty
 H5T5: 0/6p
 
 H6T1: 0/10p

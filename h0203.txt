@@ -1,0 +1,38 @@
+const print = (str, taskTime) => {
+  setTimeout(function() {
+    console.log(`${str} finished!`)
+  }, taskTime)
+}
+
+const execute = (str, taskTime, callback)  => {  
+  callback(str, taskTime)
+}
+
+console.log("Task1 to execution...")
+execute('Task1', 2000, print)
+
+console.log("Task2 to execution...")
+execute('Task2', 2000, print)
+
+console.log("Task3 to execution...")
+execute('Task3', 500, print)
+
+console.log("Last code line executed!")
+
+Rivillä 1 määritellään vakio print, johon sijoitetaan anonyymifunktio, joka ottaa vastaan parametreina
+str ja taskTime. Funktion sisällä määritellään setTimeout-funktio, jossa parametreinä on console loggaus
+template stringinä: `str-argumentti finished!`
+
+Rivillä 7 määritellään vakio execute, johon sijoitetaan anonyymicallbackfunktio, joka ottaa vastaan
+parametreina str, taskTime ja callback-funktion. Funktion sisällä kutsutaan callback funktioo, jolle
+välitetään str ja taskTime.
+
+Tulostus:
+
+Task1 to execution...    // pelkät console loggaukset, jotka suoritetaan heti.
+Task2 to execution...    // pelkät console loggaukset, jotka suoritetaan heti.
+Task3 to execution...    // pelkät console loggaukset, jotka suoritetaan heti.
+Last code line executed! // pelkät console loggaukset, jotka suoritetaan heti.
+Task3 finished!       // execute-funktion kutsun, jossa välitetään Task3 ja 500ms timeout, joten ehtii valmistua ennen Task1 ja Task2.
+Task1 finished!       // execute-funktion kutsun, jossa välitetään Task1 ja 2000ms timeout, käynnistettiin ennen Task2 suorittamista joten valmistuu ennen sitä.
+Task2 finished!       // execute-funktion kutsun, jossa välitetään Task2 ja 2000ms timeout

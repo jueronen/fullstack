@@ -13,5 +13,5 @@ fs.readFile('h0503_luvut.txt', (error, data) => {
 
   console.log(`Sum is ${summa}`);
 });
-// callback valmistuu console loggauksen jälkeen, joten summa tulee oikealle paikalle tulostukseen
+
 console.log('Reading file and calculate a sum...');
