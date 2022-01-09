@@ -1,5 +1,6 @@
 // use express
 const express = require('express');
+const fs = require('fs');
 
 // create express app
 const app = express();
@@ -16,6 +17,22 @@ let users = [
   { id: '2', name: 'Matti Mainio' },
 ];
 
+// create logger
+const logger = (request, response, next) => {
+  const date = new Date();
+  const lDate = `${date.toLocaleDateString()} ${date.toLocaleTimeString()}`;
+  const log = `${lDate}: ${request.method} ${request.url} \n`;
+  console.log(log);
+
+  // asynkronisesti tiedostoon vienti
+  fs.appendFile('file.txt', log + '\n', function (err) {
+    if (err) throw err;
+    console.log('Virhe haussa');
+  });
+  next();
+};
+app.use(logger);
+
 // määritetään endpointti juureen
 app.get('/', (request, response) => {
   response.send('Hello from server side!');
@@ -23,8 +40,8 @@ app.get('/', (request, response) => {
 
 // get all users
 app.get('/users', (request, response) => {
-  response.json(users)
-})
+  response.json(users);
+});
 
 // get one user
 
