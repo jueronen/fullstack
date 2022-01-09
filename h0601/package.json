@@ -1,0 +1,31 @@
+{
+  "name": "h0601",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jueronen/fullstack.git"
+  },
+  "keywords": [
+    "h0601"
+  ],
+  "author": "Juha Eronen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jueronen/fullstack/issues"
+  },
+  "homepage": "https://github.com/jueronen/fullstack#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "ignore": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

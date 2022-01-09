@@ -27,4 +27,4 @@ let luvut = Array.from(
     parseInt(min)
 );
 
-console.log(`Arvotut luvut: ${luvut}.`);
+console.log(luvut);

@@ -12,22 +12,24 @@
       Anna vuosiluku:
       <input type="number" id="syote" />
       <button type="button" onclick="onkoKarkausvuosi(lomake.syote.value)">
-        Testaa
+        Tarkista
       </button>
     </form>
     <br />
     <div id="vastaus"></div>
 
     <script>
-      function onkoKarkausvuosi(vuosi) {
+      const onkoKarkausvuosi = (vuosi) => {
         if ((vuosi % 4 == 0 && vuosi % 100 != 0) || vuosi % 400 == 0) {
           let div = document.getElementById('vastaus');
           div.innerHTML = `Vuosi ${vuosi} -> On karkausvuosi`;
+          return true;
         } else {
           let div = document.getElementById('vastaus');
           div.innerHTML = `Vuosi ${vuosi} -> Ei ole karkausvuosi`;
+          return false;
         }
-      }
+      };
     </script>
   </body>
 </html>
