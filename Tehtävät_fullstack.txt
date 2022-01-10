@@ -4,52 +4,52 @@ FullStack-ohjelmointi: Harjoitustehtäväväkirjanpito
 Eronen Juha [N3321]
 Ratkaisut: https://github.com/jueronen/fullstack
 
-Harjoitustehtäväpisteet: 83
+Harjoitustehtäväpisteet: 98
 Kaikki tarjolla olleet harjoitustehtäväpisteet: 0
-83/189 = > x %, tavoite 94,5
+98/189 = > 51,8 %
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-H1T1: 2/2p, tehty
-H1T2: 2/2p, tehty
-H1T3: 2/2p, tehty
-H1T4: 2/2p, tehty
-H1T5: 4/4p, tehty
-H1T6: 4/4p, tehty
-H1T7: 4/4p, tehty
+H1T1: 2/2p, toimii
+H1T2: 2/2p, toimii
+H1T3: 2/2p, toimii
+H1T4: 2/2p, toimii
+H1T5: 4/4p, toimii
+H1T6: 4/4p, toimii
+H1T7: 4/4p, toimii
 
-H2T1: 4/4p, tehty
-H2T2: 4/4p, tehty
-H2T3: 4/4p, tehty
-H2T4: 4/4p, tehty
-H2T5: 4/4p, tehty
+H2T1: 4/4p, toimii
+H2T2: 4/4p, toimii
+H2T3: 4/4p, toimii
+H2T4: 4/4p, toimii
+H2T5: 4/4p, toimii
 H2T6: 0/6p
 
 H3T1: 0/4p
 H3T2: 0/4p
 H3T3: 0/4p
-H3T4: 6/6p, tehty
+H3T4: 6/6p, toimii
 H3T5: 0/6p
 
 H4T1: 0/6p
 H4T2: 0/6p
 H4T3: 0/10p
 
-H5T1: 2/2p, tehty
-H5T2: 4/4p, tehty
-H5T3: 4/4p, tehty
-H5T4: 6/6p, tehty
-H5T5: 6/6p, tehty
+H5T1: 2/2p, toimii
+H5T2: 4/4p, toimii
+H5T3: 4/4p, toimii
+H5T4: 6/6p, toimii
+H5T5: 6/6p, toimii
 
-H6T1: 10/10p, tehty
-H6T2: 5/5p, tehty
+H6T1: 10/10p, toimii
+H6T2: 5/5p, toimii
 H6T3: 0/5p
 
-H7T1: 0/5p
+H7T1: 5/5p, toimii
 H7T2: 0/5p
 H7T3: 0/10p
 H7T4: 0/10p
 
-H8T1: 0/10p
+H8T1: 10/10p, toimii
 H8T2: 0/10p
 H8T3: 0/5p
 

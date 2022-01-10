@@ -1,0 +1,51 @@
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+#container {
+  width: 420px;
+  background-color: rgba(240, 248, 255, 0.411);
+  border-radius: 3px;
+  padding: 0px 15px 0px 15px;
+  margin: 10px auto;
+  border: 1px solid #ddd;
+}
+
+h1 {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 5px;
+}
+
+ul {
+  list-style-type: circle;
+  margin: 20px 0 20px 0;
+}
+
+input[type='text'] {
+  border: 1px solid #ccc;
+  padding: 5px;
+  width: 300px;
+  font-size: 15px;
+}
+
+button {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-left: 15px;
+  padding: 5px 15px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: rgb(11, 185, 11);
+}
+
+.delete {
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+}
+
+li {
+  padding-bottom: 10px;
+}
